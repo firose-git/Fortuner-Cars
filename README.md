@@ -43,12 +43,10 @@ Welcome to the **Fortuner Cars Website** — a sleek, responsive showcase of Toy
 
 1. Clone or download this repo:
    ```bash
-   git clone https://github.com/your-username/fortuner-cars-website.git
-
+   git clone [https://github.com/firose-git/Fortuner-Cars.git](https://github.com/firose-git/Fortuner-Cars.git)
    cd fortuner-cars-website
-Open index.html in your browser.
-
-No additional setup required – everything runs on frontend!
+   Open index.html in your browser.
+   No additional setup required – everything runs on frontend!
 
 
 👨‍💻 Developed By
