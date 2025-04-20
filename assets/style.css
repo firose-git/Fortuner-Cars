@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins','sans-serif';
+
+
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+
+}
+/*----------navbar----------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+    
+}
+.bold{
+    font-size: 25px;
+   
+
+}
+li{
+    padding: 5px;
+    
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue ;
+    transition: .1s ;
+}   
+
+/*-------home------*/
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+/*-------about------*/
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+   
+}
+/*------services-*/
+.card img{
+    height: 200px;
+    transition: 1s;
+
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);  
+    transition: 1s;
+    
+}
+/*-------contact-----*/
+form {
+    background-color: #f5f5f5; /* Slightly lighter background for a more modern feel */
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1),  /* Softer shadow for a more subtle depth */
+                -1px -1px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;  /* Slightly smaller border radius for a sleek design */
+    transition: all 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+form:hover {
+    transform: scale(1.03);  /* Subtle scaling effect on hover */
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    padding: 12px 20px; /* More padding for better button appearance */
+    background-color: #333;  /* Darker shade for modern aesthetic */
+    color: white;
+    border-radius: 8px;  /* More rounded button */
+    font-weight: bold;
+    text-transform: uppercase;  /* All caps for a bolder look */
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;  /* Smooth transition for hover and focus effects */
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #333;  /* Text color changes to dark when hovered */
+    border: 2px solid #333;  /* Adding border for more emphasis on hover */
+    transform: translateY(-2px);  /* Small lift effect on hover */
+}
+
+.btn1:active {
+    transform: translateY(0);  /* Remove the lift effect on click */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);  /* Adding shadow on click for depth */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;  /* More padding for inputs and textarea */
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;  /* More rounded edges */
+    font-size: 16px;
+    transition: border-color 0.3s ease;  /* Smooth transition for border on focus */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #6200ea;  /* Focus border color to match the theme */
+    outline: none;
+    box-shadow: 0 0 8px rgba(98, 0, 234, 0.4);  /* Subtle glow effect on focus */
+}
+
+
+#goTopBtn {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+    transition: 0.3s ease-in-out;
+  }
+  #goTopBtn:hover {
+    background-color: #343a40;
+    color: white;
+  }
+  
